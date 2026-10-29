@@ -6,3 +6,11 @@ coverage/
 *.log
 .env*
 !.env.example
+node_modules
+tmp
+dist
+.env
+*.log
+.env
+.env.*
+!.env.example
