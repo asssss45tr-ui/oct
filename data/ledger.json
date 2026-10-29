@@ -1,0 +1,89 @@
+{
+  "v": 3,
+  "settings": {
+    "shop": "فروشگاه من",
+    "cur": "toman",
+    "tz": "Asia/Tehran",
+    "riskDebt": 50000000,
+    "riskDays": 30,
+    "nearPct": 80,
+    "nearDays": 3,
+    "noPass": false
+  },
+  "users": [],
+  "customers": [
+    {
+      "id": "c_mvtm29m42ql7",
+      "code": "C-1001",
+      "name": "حسین رضایی",
+      "phone": "09123334455",
+      "phone2": "",
+      "address": "",
+      "limit": 0,
+      "note": "ایجاد شده خودکار از صندوق فروشگاهی",
+      "status": "active",
+      "created": 1793282438956
+    }
+  ],
+  "invoices": [
+    {
+      "id": "iv_mvtm29m4yfpf",
+      "no": "INV-TEST-CREDIT",
+      "cid": "c_mvtm29m42ql7",
+      "ts": 1793282438956,
+      "due": 1794492038956,
+      "items": [
+        {
+          "n": "پنیر تبریزی",
+          "q": 1,
+          "u": "عدد",
+          "p": 850000
+        }
+      ],
+      "sub": 850000,
+      "disc": 50000,
+      "total": 800000,
+      "status": "active",
+      "note": "ثبت فاکتور نسیه از صندوق (صندوقدار: صندوقدار)",
+      "user": "صندوقدار",
+      "txId": "tx_mvtm29m4qncc"
+    }
+  ],
+  "payments": [],
+  "txs": [
+    {
+      "id": "tx_mvtm29m4qncc",
+      "n": 1,
+      "no": "D-000001",
+      "cid": "c_mvtm29m42ql7",
+      "ts": 1793282438956,
+      "type": "sale",
+      "debit": 800000,
+      "credit": 0,
+      "desc": "فاکتور فروش نسیه INV-TEST-CREDIT (1 قلم)",
+      "due": 1794492038956,
+      "status": "active",
+      "ref": {
+        "inv": "iv_mvtm29m4yfpf"
+      },
+      "method": "",
+      "user": "صندوقدار"
+    }
+  ],
+  "allocs": [],
+  "followups": [],
+  "audit": [],
+  "cashCounts": {},
+  "seq": {
+    "inv": 1,
+    "rec": 0,
+    "doc": 0,
+    "cust": 1,
+    "txn": 1
+  },
+  "meta": {
+    "lastBackup": 0,
+    "created": 1793282426851,
+    "migrated": false
+  }
+}

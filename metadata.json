@@ -1,0 +1,10 @@
+{
+  "name": "انباریار | سیستم مدیریت فروشگاه و صندوق",
+  "description": "سامانه جامع مدیریت انبار، فروشگاه، اسکن بارکد کالا، صندوق فروش، صدور فاکتور و گزارشات مالی با قابلیت نصب PWA و اندروید APK",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
